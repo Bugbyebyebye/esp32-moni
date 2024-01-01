@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "家庭智能监控"
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/add/add",
+			"style" : 
+			{
+				"navigationBarTitleText" : "保存",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "家庭智能监控",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/video/video",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的视频",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/image/image",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的截图",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/warn/warn",
+			"style" : 
+			{
+				"navigationBarTitleText" : "报警记录",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "家庭智能监控",
+		"navigationBarBackgroundColor": "#2273f9",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"iconfontSrc": "static/icons/iconfont.ttf",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconfont": {
+					"text": "\ue858",
+					"selectedText": "\ue857",
+					"selectedColor": "#2273f9"
+				}
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/user/user",
+				"iconfont": {
+					"text": "\ue829",
+					"selectedText": "\ue828",
+					"selectedColor": "#2273f9"
+				}
+			}
+		]
+	}
+}
